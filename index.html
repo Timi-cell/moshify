@@ -13,7 +13,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://" />
     <meta property="og:url" content="https://moshified.com" />
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -26,7 +25,7 @@
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"
+        <a aria-label="Moshify" class="nav__brand" href="/"
           ><img src="images/logo.svg" alt="logo"
         /></a>
         <svg class="icon icon--white nav__toggler">
@@ -69,7 +68,7 @@
         </p>
       </header>
       <div class="input-group">
-        <input type="text" class="input" placeholder="Enter domain name here" />
+        <input aria-label="Domain" type="text" class="input" placeholder="Enter domain name here" />
         <button class="btn btn--accent">
           <svg class="icon icon--white">
             <use href="images/sprite.svg#search"></use>
